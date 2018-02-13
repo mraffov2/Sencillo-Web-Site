@@ -1,0 +1,82 @@
+.contenedor{
+	background-image:url(../images/image1.jpg);
+	background-size: 100% 100%;
+}
+
+.contenedor a{
+	color: #fff;
+	margin-top: 20px;
+}
+.contenedor h2{
+	margin-top: 250px;
+	color: #fff;
+}
+
+.contenedor h1{
+	color: #fff;
+	margin-top: 100px;
+}
+
+.contenedor p{
+	margin-top: 40px;
+}
+
+.container img{
+	width: 100%;
+}
+
+.container article{
+	margin-top: 25px;
+	
+}
+
+.container .contenedor-botones{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container h4{
+	color: #82C6F7;
+}
+
+footer{
+	background-image:url(../images/image1.jpg);
+	background-size: 100% 100%;
+}
+.container-footer section{
+	margin-top: 45px;
+}
+
+.container-footer form{
+	margin-top: 60px;
+}
+
+.container-footer ul{
+	margin-top: 45px;
+	color: #fff;
+}
+
+.container-footer a{
+	color: #fff;
+}
+
+
+.container-footer h3{
+	color: #fff;
+}
+
+.container-footer p{
+	margin-top: 45px;
+	color: #fff;
+}
+
+.container-footer h5{
+	margin-top: 80px;
+	color: #fff;
+}
+.jumbotron{
+	background-image:url(../images/image1.jpg);
+}
+.jumbotron a{
+	color: #fff;
+}

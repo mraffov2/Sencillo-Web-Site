@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Mario Villegas</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+	<body>
+		<nav class="teal accent-4" role="navigation">
+    		<div class="nav-wrapper container ">
+      			<a id="logo-container" href="index.html" class="brand-logo">mraffov</a>
+      				<ul class="right hide-on-med-and-down">
+        				<li><a href="curriculun.html"> Sintesis Curricular</a></li>
+        				<li><a href="diseñosweb.html">Diseños Web</a></li>
+        				<li class="active"><a href="contactame.html">Contactame</a></li>
+      				</ul>
+      				<ul id="nav-mobile" class="side-nav">
+        				<li><a href="curriculun.html"> Sintesis Curricular</a></li>
+        				<li><a href="diseñosweb.html">Diseños Web</a></li>
+        				<li><a href="#">Contactame</a></li>
+      				</ul>
+      			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    		</div>
+  		</nav>
+
+
+
+
+
+		<div class="container">
+
+			<div class="center">
+				<h2 class="teal-text text-teal accent-4"> Te puedes contactar por medio de: </h2> <br>
+				<p>mraffov@gmailcom</p> <br>
+				<p>0414-427 9082</p> <br>
+			</div>
+		<div class="row">
+    		<div class="col s12 center">
+      			<h3><i class="mdi-content-send brown-text"></i></h3>
+      			<h4 class="teal-text text-teal accent-4">Contactame</h4>
+
+        		<div class="row"> <!--   EMAIL   -->
+          			<form class="col s12" action="enviar.php" method="post">
+            			<div class="row">        
+              			<div class="input-field col s12">    
+                			<input id="icon_prefix" type="text" class="validate" name="nombre" required>
+                			<label for="icon_prefix">Nombre</label>
+              			</div><br>
+              			<div class="input-field col s12">                
+                			<input id="icon_telephone" type="tel" class="validate" name="telefono" required>
+                			<label for="icon_telephone">Asunto</label>
+              			</div><br>
+              			<div class="input-field col s12">
+                			<textarea id="textarea1" class="materialize-textarea" name="mensaje" required></textarea>
+                			<label for="textarea1">Mensaje</label>
+              			</div><br>
+              			<button class="btn waves-effect waves-light" type="submit" name="action" value="ENVIAR">Enviar
+                			<i class="material-icons right">send</i>
+              			</button>
+            			</div>
+          			</form>
+        		</div>
+        		<br>
+        	</div>
+        </div>
+		</div>
+        <footer class="page-footer teal">
+    		<div class="container">
+      		<div class="row">
+        		<div class="col l6 s12">
+          			<h5 class="white-text">Finalidad de Esta PAgina Web</h5>
+          			<p class="grey-text text-lighten-4">El motivo de el presente diseño web es para mostar a la parte interesada mis conocimientos y habilidades en el hambito laboral</p>
+        		</div>
+        		<div class="col l3 s12">
+          				            				
+        		</div>
+        		<div class="col l3 s12">
+          			<h5 class="white-text">Enlaces</h5>
+          			<ul>
+            			<li><a class="white-text" href="curriculun.html">Sintesis Curricular</a></li>
+            			<li><a class="white-text" href="diseñosweb.html">Diseños Web</a></li>
+            			<li><a class="white-text" href="contactame.html">Contactame</a></li>            				
+          			</ul>
+        		</div>
+      		</div>
+    		</div>
+    		<div class="footer-copyright">
+      			<div class="container">
+      				Elaborado por Mario Villegas, usando<a class="brown-text text-lighten-3" href="http://materializecss.com"> Materialize</a>
+      			</div>
+    		</div>
+  		</footer>
+
+
+  		<!--  Scripts-->
+  		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  		<script src="js/materialize.js"></script>
+  		<script src="js/init.js"></script>
+  </body>
+</html>
